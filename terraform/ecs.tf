@@ -10,7 +10,7 @@ resource "aws_ecs_task_definition" "express_app" {
   container_definitions = <<DEFINITION
 [
   {
-    "image": "882928987684.dkr.ecr.ap-south-1.amazonaws.com/pearlthrough-ecr:latest",
+    "image": "882928987684.dkr.ecr.ap-south-1.amazonaws.com/pearlthoughts-ecr",
     "cpu": 1024,
     "memory": 2048,
     "name": "express-app",
